@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza</title>
+</head>
+<body>
+
+    <div id="wrap">
+        <!-- start header -->
+        <header class="header" id="myHeader">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo/logo.png" alt="Logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-8 col-lg-10">
+                        <!-- nav items starts   -->
+                        <nav class="navbar navbar-expand-lg nabar-own p-8">
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <span class="menu_line_1"></span>
+                                    <span class="menu_line_2"></span>
+                                    <span class="menu_line_3"></span>
+                                </span>
+                            </button>
+                            <div class="collapse navbar-collapse tr-nabar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto align-self-center">
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#Special" class="nav-link">Special Items</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#menu" class="nav-link">Menu</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#feedback" class="nav-link">Feedback</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#chef" class="nav-link">Chef</a>
+                                    </li>
+                                    <li class="nav-item tr-nav-item">
+                                        <a href="#contact" class="nav-link">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="header-search">
+                                    <input type="text" class="form-control header-input" placeholder="Search here ...">
+                                    <span class="search-icon">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                    <span class="close-icon"><i class="fas fa-times"></i></span>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- End header -->
+
+        <section class="home-slider">
+            <div class="home-slider-image wow fadeInRight col-xl-5 col-lg-6 col-md-6 col-12 p-0" data-wow-duration="2s" data-wow-delay="1s">
+                <img src="assets/images/silders/bg.png" alt="BG Image" class="img-fluid" data-wow-delay="1s">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-11 col-md-6 col-lg-9 col-xl-10">
+                        <div class="slider-content">
+                            <span class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+                                Chicken Loaded
+                            </span>
+                            <h1 class="wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s">Perfect party food</h1>
+                            <p class="mb-0 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                This is a paragraph for Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut, voluptas expedita quisquam sequi dignissimos dicta officia, nemo illo itaque adipisci. Tempora ut ab nam! Quidem voluptatum rerum quaerat obcaecati.
+                            </p>
+                        </div>
+                        <div class="slider-video-section wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                            <div class="slider-obutton">
+                                <button class="btn">Order Now</button>
+                            </div>
+                            <div class="slider-pbutton">
+                                <div class="play-button" data-toggle="modal" data-target="#exampleModalCenter">
+                                    <img src="assets/images/silders/paly-icon.png" alt="play button">
+                                </div>
+                                <p class="mb-0 ml-4">Watch Our Story</p>
+
+                                <!-- modal section starts  -->
+                                <div id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                                                <i class="fas fa-window-close"></i>
+                                            </button>
+                                            <div class="modal-body">
+                                                <video controls width="727" height="600">
+                                                    <source src="assets/videos/video.mp4" type="video/mp4">
+                                                </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- modal section ends -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- slider section ends here -->
+
+
+<!-- Our specialities items starts  -->
+
+<section class="specialities position-relative" id="Special">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-one">
+        <img src="assets/images/background-shape/dottd-squre.png" class="img-fluid" alt="">
+    </div>
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <h2 class="mb-0">Our Specialities</h2>
+                </div>
+                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                    This is a paragraph for Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut, voluptas expedita quisquam sequi dignissimos dicta officia, nemo illo itaque adipisci. Tempora ut ab nam! Quidem voluptatum rerum quaerat obcaecati.
+                </p>
+            </div>
+        </div>
+        <div class="row specialities-section">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="specialities-image wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <img src="assets/images/specialities/s1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-6 col-lg-6 p-lg-0 specialities-column">
+                <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <h3 class="mb-0">Delicious Chesse Loaded Pizza</h3>
+                </div>
+                <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                    This is a paragraph for Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut, voluptas expedita quisquam sequi dignissimos dicta officia, nemo illo itaque adipisci. Tempora ut ab nam! Quidem voluptatum rerum quaerat obcaecati.
+                </p>
+            </div>
+        </div>
+        <div class="row specialities-section">
+            <div class="col-12 col-md-6 col-lg-6 p-lg-0 specialities-column specialities-middle">
+                <div class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <h3 class="mb-0">Make Your dine time Worth</h3>
+                </div>
+                <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                    This is a paragraph for Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut, voluptas expedita quisquam sequi dignissimos dicta officia, nemo illo itaque adipisci. Tempora ut ab nam! Quidem voluptatum rerum quaerat obcaecati.
+                </p>
+            </div>
+            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="specialities-image wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <img src="assets/images/specialities/s2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row specialities-section">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="specialities-image wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <img src="assets/images/specialities/s3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-6 col-lg-6 p-lg-0 specialities-column">
+                <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <h3 class="mb-0">We serve the best one here.</h3>
+                </div>
+                <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                    This is a paragraph for Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut, voluptas expedita quisquam sequi dignissimos dicta officia, nemo illo itaque adipisci. Tempora ut ab nam! Quidem voluptatum rerum quaerat obcaecati.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our specialities items ends  -->
+
+
+<section id="menu" class="our-item-section position-relative">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-two">
+        <img src="assets/images/background-shape/dottd-squre.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <h2 class="mb-0">Our Top Items</h2>
+                </div>
+                <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, inventore cumque eum sapiente officiis recusandae totam repudiandae voluptate corporis tenetur, voluptatem voluptas ratione voluptatibus ullam.</p>
+            </div>
+        </div>
+        <div class="row mx-md-0">
+            <div class="col-12 col-md-4 col-lg-3 p-lg-0">
+                <ul data-wow-duration="2s" data-wow-delay="0.4s" class="our-item-tab nav-tabs nav flex-column pl-0 wow fadeIn">
+                    <li class="nav-item">
+                        <a href="#veg" data-toggle="tab" class="nav-link active">Veg Loaded</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nonveg" data-toggle="tab" class="nav-link">Non Veg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mushroom" data-toggle="tab" class="nav-link">Mushroom</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cheese" data-toggle="tab" class="nav-link">Cheese</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#paneer" data-toggle="tab" class="nav-link">Paneer</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
+            <div class="col-12 col-md-8 col-lg-8 p-lg-0">
+                <div class="tab-content" id="tabs">
+                    <div class="tab-pane active" id="veg">
+                        <div class="our-item-slider veg-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Margarita pizza with Extra Chesse and Coke </h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Veg/b1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Veg Loaded with organic veggies and Pepsi</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Veg/b2.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane" id="nonveg">
+                        <div class="our-item-slider non-veg-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Chicken Dominator with Grilled Chicken Rashers and Double Barbaque Chicken</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Non veg/de1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Pepperoni Pizza</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Non veg/de2.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="mushroom">
+                        <div class="our-item-slider mushroom-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Quattro Stagioni includes "Mushroom, Ham and many other Items"</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Mushroom/d1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="our-item"> 
+                                    <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Napoletana or Napoli Pizza</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Mushroom/d2.jpg" alt="">
+                                        <div class="item-price">Rs. 499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="cheese">
+                        <div class="our-item-slider cheese-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Mozzarella</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Cheese/l1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Goat Cheese</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/Cheese/l2.jpg" alt="">
+                                        <div class="item-price">Rs. 499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="paneer">
+                        <div class="our-item-slider paneer-slider">
+                            <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Mexican green Wave"</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/paneer/s1.jpg" alt="">
+                                        <div class="item-price">Rs. 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="our-item">
+                                <div class="our-item-inner">
+                                    <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
+                                        <h3 class="mb-0">Farm House. A Pizza that goes ballistic on veggies</h3>
+                                    </div>
+                                    <div class="item_order">
+                                        <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, voluptate eaque. Saepe dolor incidunt vero iusto eum. Tempore, accusantium unde?
+                                        </p>
+                                        <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                            <button class="btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <img src="assets/images/our-item/paneer/s2.jpg" alt="">
+                                        <div class="item-price">Rs. 499</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+
+<!-- testimonial section  -->
+<section class="testimonials position-relative" id="feedback">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-three">
+        <img src="assets/images/background-shape/dottd-squre.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s">
+                    <h2 class="mb-0">Our Happy User</h2>
+                </div>
+                <p class="wow fadeIn marg" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo voluptatibus praesentium mollitia non ut inventore in exercitationem id doloremque voluptate.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6">
+                <div id="testimonials-slider-pager">
+                    <div class="testimonials-slider-pager-one">
+                        <a href="#" class="pager-item" data-slide-index="0"><img src="assets/images/testiomonial/1.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="1"><img src="assets/images/testiomonial/2.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="2"><img src="assets/images/testiomonial/3.png" class="img-fluid" alt=""></a>
+                    </div>
+                    <div class="testimonials-slider-pager-two">
+                        <a href="#" class="pager-item" data-slide-index="3"><img src="assets/images/testiomonial/4.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="4"><img src="assets/images/testiomonial/5.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="5"><img src="assets/images/testiomonial/6.png" class="img-fluid" alt=""></a>
+                    </div>
+                    <div class="testimonials-slider-pager-three">
+                        <a href="#" class="pager-item" data-slide-index="0"><img src="assets/images/testiomonial/1.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="1"><img src="assets/images/testiomonial/2.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="2"><img src="assets/images/testiomonial/3.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="3"><img src="assets/images/testiomonial/4.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="4"><img src="assets/images/testiomonial/5.png" class="img-fluid" alt=""></a>
+                        <a href="#" class="pager-item" data-slide-index="5"><img src="assets/images/testiomonial/6.png" class="img-fluid" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <ul class="slider testimonials-slider wow fadeInwow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="assets/images/testiomonial/quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis nobis esse at obcaecati recusandae nam laboriosam enim id officiis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia eaque earum excepturi expedita et porro incidunt deserunt, veniam fugit?</p>
+                            <h3 class="mb-0">Nilay Hirpara</h3>
+                            <span>MD</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="assets/images/testiomonial/quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis nobis esse at obcaecati recusandae nam laboriosam enim id officiis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia eaque earum excepturi expedita et porro incidunt deserunt, veniam fugit?</p>
+                            <h3 class="mb-0">Somyadeep</h3>
+                            <span>CLO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="assets/images/testiomonial/quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis nobis esse at obcaecati recusandae nam laboriosam enim id officiis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia eaque earum excepturi expedita et porro incidunt deserunt, veniam fugit?</p>
+                            <h3 class="mb-0">Priyotosh Dey</h3>
+                            <span>COO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="assets/images/testiomonial/quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis nobis esse at obcaecati recusandae nam laboriosam enim id officiis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia eaque earum excepturi expedita et porro incidunt deserunt, veniam fugit?</p>
+                            <h3 class="mb-0">Pranav Badgal</h3>
+                            <span>CTO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="assets/images/testiomonial/quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis nobis esse at obcaecati recusandae nam laboriosam enim id officiis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia eaque earum excepturi expedita et porro incidunt deserunt, veniam fugit?</p>
+                            <h3 class="mb-0">Ravi Kumawat</h3>
+                            <span>CFO</span>
+                        </div>
+                    </li>
+                    <li class="slide-item">
+                        <div class="quote-image">
+                            <img src="assets/images/testiomonial/quote-left.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="single-testi-one">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis nobis esse at obcaecati recusandae nam laboriosam enim id officiis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia eaque earum excepturi expedita et porro incidunt deserunt, veniam fugit?</p>
+                            <h3 class="mb-0">Navnit Kumar</h3>
+                            <span>CEO</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Chef section  -->
+<section class="chef-section position-relative" id="chef">
+    <h2 class="d-none">hidden</h2>
+    <div class="shape-image-four">
+        <img src="assets/images/background-shape/dottd-squre.png" alt="">
+    </div>
+    <div class="container position-relative">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s">
+                    <h2 class="mb-0">Meet Our Great Chef</h2>
+                </div>
+                <p class="wow fadeIn marg" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo voluptatibus praesentium mollitia non ut inventore in exercitationem id doloremque voluptate.
+                </p>
+            </div>
+        </div>
+        <div class="chef-slider">
+            <div class="chef-slider-inner">
+                <div class="row mx-lg-0">
+                    <div class="col-12 col-md-4 col-lg-4 p-0">
+                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="chef-image wow fadeInLeft">
+                            <img src="assets/images/chef/c1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-1 col-lg-1 p-lg-0 d-lg-block d-none"></div>
+                    <div class="col-12 col-md-8 col-lg-7 p-lg-0">
+                        <div class="chef-content wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                            <h3 class="mb-0">New Pizza Flavour made by chef</h3>
+                            <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ad harum temporibus numquam est praesentium repellat accusamus exercitationem repellendus sapiente, pariatur quod sunt maiores nostrum amet possimus vitae ullam fugiat.
+                            </p>
+                            <div class="chef-name">Pranav</div>
+                            <span>Chef at Pizza Shop</span>
+                            <div class="social-share">
+                                <a href="#" class="fb-ic"><i class="fab fa-facebook-f mr-4"></i></a>
+                                <a href="#" class="tw-ic"><i class="fab fa-twitter mr-4"></i></a>
+                                <a href="#" class="ins-ic"><i class="fab fa-instagram mr-4"></i></a>
+                                <a href="#" class="pin-ic"><i class="fab fa-pinterest mr-4"></i></a>
+                                <a href="#" class="sn-ic"><i class="fab fa-snapchat mr-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chef-slider-inner">
+                <div class="row mx-lg-0">
+                    <div class="col-12 col-md-4 col-lg-4 p-0">
+                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="chef-image wow fadeInLeft">
+                            <img src="assets/images/chef/c2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-1 col-lg-1 p-lg-0 d-lg-block d-none"></div>
+                    <div class="col-12 col-md-8 col-lg-7 p-lg-0">
+                        <div class="chef-content wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                            <h3 class="mb-0">Chef made somthing to impress customer</h3>
+                            <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ad harum temporibus numquam est praesentium repellat accusamus exercitationem repellendus sapiente, pariatur quod sunt maiores nostrum amet possimus vitae ullam fugiat.
+                            </p>
+                            <div class="chef-name">Nilay</div>
+                            <span>Chef at Pizza Shop</span>
+                            <div class="social-share">
+                                <a href="#" class="fb-ic"><i class="fab fa-facebook-f mr-4"></i></a>
+                                <a href="#" class="tw-ic"><i class="fab fa-twitter mr-4"></i></a>
+                                <a href="#" class="ins-ic"><i class="fab fa-instagram mr-4"></i></a>
+                                <a href="#" class="pin-ic"><i class="fab fa-pinterest mr-4"></i></a>
+                                <a href="#" class="sn-ic"><i class="fab fa-snapchat mr-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- email section  -->
+<section class="email-subscription position-relative" id="contact">
+    <div class="container">
+        <div class="row specialities-top">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s">
+                    <h2 class="mb-0">Want to get the latest update?</h2>
+                </div>
+                <p class="wow fadeIn marg" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo voluptatibus praesentium mollitia non ut inventore in exercitationem id doloremque voluptate.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-6">
+                <form action="#" class="email-form">
+                    <div class="form-group position-relative mb-0">
+                        <input type="email" class="form-control" placeholder="Your Emai Id">
+                        <button type="submit" class="btn btn-primary email-form-button">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </div>
+
+    <!-- footer section  -->
+    <footer class="position-relative wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+        <div class="footer-bottom">
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <div class="footer-menu text-center">
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="#Special" class="nav-link">Special Items</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#menu" class="nav-link">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#feedback" class="nav-link">Feedback</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#chef" class="nav-link">Chef</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 text-center">
+                        <div class="footer-logo">
+                            <img src="assets/images/logo/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 footer-icon text-center">
+                        <a href="#" class="fb-ic">
+                            <i class="fab fa-facebook-f mr-2 mr-md-5 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="tw-ic">
+                            <i class="fab fa-twitter mr-2 mr-md-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="ins-ic">
+                            <i class="fab fa-instagram mr-2 mr-md-5 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="pin-ic">
+                            <i class="fab fa-pinterest mr-2 mr-md-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                        <a href="#" class="sn-ic">
+                            <i class="fab fa-snapchat mr-2 mr-md-5 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/bx-slider/jquery.bxslider.js"></script>
+    <script src="assets/js/bx-slider/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bx-slider/jquery.fitvids.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
